@@ -6,6 +6,9 @@
   "dependencies": {
     "react": "^17.0.2"
   },
+  "scripts": {
+    "setup:test": "mkdir test && cd test && npx create-react-app . --template typescript"
+  },
   "devDependencies": {
     "@types/react": "^17.0.20",
     "typescript": "^4.4.2"
